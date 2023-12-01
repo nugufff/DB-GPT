@@ -29,9 +29,9 @@ class EmbeddingLoader:
         ):
             # add more models
             if model_name in ["proxy_openai", "proxy_azure"]:
-                from langchain.embeddings import OpenAIEmbeddings
+                from langchain.embeddings import AzureOpenAIEmbeddings
 
-                return OpenAIEmbeddings(**param.build_kwargs())
+                return AzureOpenAIEmbeddings(**param.build_kwargs())
             else:
                 from langchain.embeddings import HuggingFaceEmbeddings
 

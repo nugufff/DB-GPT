@@ -39,6 +39,23 @@ def get_device() -> str:
     except ModuleNotFoundError:
         return "cpu"
 
+EMBEDDING_MODEL_CONFIG = {
+    "text2vec": os.path.join(MODEL_PATH, "text2vec-large-chinese"),
+    "text2vec-base": os.path.join(MODEL_PATH, "text2vec-base-chinese"),
+    # https://huggingface.co/moka-ai/m3e-large
+    "m3e-base": os.path.join(MODEL_PATH, "m3e-base"),
+    # https://huggingface.co/moka-ai/m3e-base
+    "m3e-large": os.path.join(MODEL_PATH, "m3e-large"),
+    # https://huggingface.co/BAAI/bge-large-en
+    "bge-large-en": os.path.join(MODEL_PATH, "bge-large-en"),
+    "bge-base-en": os.path.join(MODEL_PATH, "bge-base-en"),
+    # https://huggingface.co/BAAI/bge-large-zh
+    "bge-large-zh": os.path.join(MODEL_PATH, "bge-large-zh"),
+    "bge-base-zh": os.path.join(MODEL_PATH, "bge-base-zh"),
+    "sentence-transforms": os.path.join(MODEL_PATH, "all-MiniLM-L6-v2"),
+    "proxy_openai": "proxy_openai",
+    "proxy_azure": "proxy_azure",
+}
 
 LLM_MODEL_CONFIG = {
     "flan-t5-base": os.path.join(MODEL_PATH, "flan-t5-base"),
@@ -90,26 +107,10 @@ LLM_MODEL_CONFIG = {
     "opt-125m": os.path.join(MODEL_PATH, "opt-125m"),
 }
 
-EMBEDDING_MODEL_CONFIG = {
-    "text2vec": os.path.join(MODEL_PATH, "text2vec-large-chinese"),
-    "text2vec-base": os.path.join(MODEL_PATH, "text2vec-base-chinese"),
-    # https://huggingface.co/moka-ai/m3e-large
-    "m3e-base": os.path.join(MODEL_PATH, "m3e-base"),
-    # https://huggingface.co/moka-ai/m3e-base
-    "m3e-large": os.path.join(MODEL_PATH, "m3e-large"),
-    # https://huggingface.co/BAAI/bge-large-en
-    "bge-large-en": os.path.join(MODEL_PATH, "bge-large-en"),
-    "bge-base-en": os.path.join(MODEL_PATH, "bge-base-en"),
-    # https://huggingface.co/BAAI/bge-large-zh
-    "bge-large-zh": os.path.join(MODEL_PATH, "bge-large-zh"),
-    "bge-base-zh": os.path.join(MODEL_PATH, "bge-base-zh"),
-    "sentence-transforms": os.path.join(MODEL_PATH, "all-MiniLM-L6-v2"),
-    "proxy_openai": "proxy_openai",
-    "proxy_azure": "proxy_azure",
-}
+
 
 # Load model config
-ISDEBUG = False
+ISDEBUG = True
 
 VECTOR_SEARCH_TOP_K = 10
 VS_ROOT_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "vs_store")
