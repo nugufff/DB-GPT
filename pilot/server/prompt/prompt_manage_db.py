@@ -29,6 +29,7 @@ class PromptManageEntity(Base):
     prompt_name = Column(String(512))
     content = Column(Text)
     user_name = Column(String(128))
+    sys_code = Column(String(128), index=True, nullable=True, comment="System code")
     gmt_created = Column(DateTime)
     gmt_modified = Column(DateTime)
 
@@ -54,6 +55,7 @@ class PromptManageDao(BaseDao):
             prompt_name=prompt.prompt_name,
             content=prompt.content,
             user_name=prompt.user_name,
+            sys_code=prompt.sys_code,
             gmt_created=datetime.now(),
             gmt_modified=datetime.now(),
         )
@@ -82,6 +84,8 @@ class PromptManageDao(BaseDao):
             prompts = prompts.filter(
                 PromptManageEntity.prompt_name == query.prompt_name
             )
+        if query.sys_code is not None:
+            prompts = prompts.filter(PromptManageEntity.sys_code == query.sys_code)
 
         prompts = prompts.order_by(PromptManageEntity.gmt_created.desc())
         result = prompts.all()

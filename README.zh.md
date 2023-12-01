@@ -22,15 +22,15 @@
     <a href="https://github.com/eosphoros-ai/DB-GPT/issues">
       <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/csunny/DB-GPT" />
     </a>
-    <a href="https://discord.gg/nASQyBjvY">
-      <img alt="Discord" src="https://dcbadge.vercel.app/api/server/nASQyBjvY?compact=true&style=flat" />
+    <a href="https://discord.gg/7uQnPuveTY">
+      <img alt="Discord" src="https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat" />
     </a>
     <a href="https://codespaces.new/eosphoros-ai/DB-GPT">
       <img alt="Open in GitHub Codespaces" src="https://github.com/codespaces/badge.svg" />
     </a>
   </p>
 
-[**English**](README.md)|[**Discord**](https://discord.gg/nASQyBjvY)|[**文档**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/)|[**微信**](https://github.com/csunny/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC)|[**社区**](https://github.com/eosphoros-ai/community)
+[**English**](README.md)|[**Discord**](https://discord.gg/7uQnPuveTY)|[**文档**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/)|[**微信**](https://github.com/csunny/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC)|[**社区**](https://github.com/eosphoros-ai/community)
 </div>
 
 ## DB-GPT 是什么？
@@ -52,10 +52,11 @@ DB-GPT是一个开源的数据库领域大模型框架。目的是构建大模�
 
 ## 效果演示
 
-示例通过 RTX 4090 GPU 演示
+##### Chat Data
+![chatdata](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/1f77079e-d018-4eee-982b-9b6a66bf1063)
 
 ##### Chat Excel
-![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/0474d220-2a9f-449f-a940-92c8a25af390)
+![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/3044e83b-a71e-41fe-a1e2-98e479e0ab59)
 
 #### 根据自然语言对话生成分析图表
 <p align="left">
@@ -73,24 +74,24 @@ DB-GPT是一个开源的数据库领域大模型框架。目的是构建大模�
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-[**教程**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh-cn/latest/getting_started/install/deploy.html)
-- [**安装**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh-cn/latest/getting_started/install/deploy.html)
-  - [**Install Step by Step**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh-cn/latest/getting_started/install/deploy.html)
-  - [**Docker安装**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/docker/docker.html)
-  - [**Docker Compose安装**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/docker_compose/docker_compose.html)
-- [**产品使用手册**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/chatdb/chatdb.html)
-  - [**ChatData**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/chatdb/chatdb.html)
-  - [**ChatKnowledge**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/kbqa/kbqa.html)
-  - [**ChatExcel**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/chatexcel/chatexcel.html)
-  - [**Dashboard**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/dashboard/dashboard.html)
-  - [**LLM 管理**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/model/model.html)
-  - [**Chat Agent**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/application/chatagent/chatagent.html)
-- [**如何部署LLM**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/cluster/cluster.html)
-  - [**Standalone**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/cluster/vms/standalone.html#)
-  - [**Cluster**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/cluster/vms/index.html)
-  - [**vLLM**](https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/getting_started/install/llm/vllm/vllm.html)
-- [**如何Debug**](https://db-gpt.readthedocs.io/en/latest/getting_started/observability.html)
-- [**FAQ**](https://db-gpt.readthedocs.io/en/latest/getting_started/faq/deploy/deploy_faq.html)
+[**教程**](https://www.yuque.com/eosphoros/dbgpt-docs/bex30nsv60ru0fmx)
+- [**快速开始**](https://www.yuque.com/eosphoros/dbgpt-docs/ew0kf1plm0bru2ga)
+  - [**源码安装**](https://www.yuque.com/eosphoros/dbgpt-docs/urh3fcx8tu0s9xmb)
+  - [**Docker安装**](https://www.yuque.com/eosphoros/dbgpt-docs/glf87qg4xxcyrp89)
+  - [**Docker Compose安装**](https://www.yuque.com/eosphoros/dbgpt-docs/wwdu11e0v5nkfzin)
+- [**产品使用手册**](https://www.yuque.com/eosphoros/dbgpt-docs/tkspdd0tcy2vlnu4)
+  - [**数据对话**](https://www.yuque.com/eosphoros/dbgpt-docs/gd9hbhi1dextqgbz)
+  - [**知识库**](https://www.yuque.com/eosphoros/dbgpt-docs/ycyz3d9b62fccqxh)
+  - [**ChatExcel**](https://www.yuque.com/eosphoros/dbgpt-docs/prugoype0xd2g4bb)
+  - [**数据库对话**](https://www.yuque.com/eosphoros/dbgpt-docs/wswpv3zcm2c9snmg)
+  - [**报表分析**](https://www.yuque.com/eosphoros/dbgpt-docs/vsv49p33eg4p5xc1)
+  - [**插件**](https://www.yuque.com/eosphoros/dbgpt-docs/pom41m7oqtdd57hm)
+- [**如何部署模型服务**](https://www.yuque.com/eosphoros/dbgpt-docs/vubxiv9cqed5mc6o)
+  - [**单机部署**](https://www.yuque.com/eosphoros/dbgpt-docs/kwg1ed88lu5fgawb)
+  - [**集群部署**](https://www.yuque.com/eosphoros/dbgpt-docs/gmbp9619ytyn2v1s)
+  - [**vLLM**](https://www.yuque.com/eosphoros/dbgpt-docs/bhy9igdvanx1uluf)
+- [**如何Debug**](https://www.yuque.com/eosphoros/dbgpt-docs/eyg0ocbc2ce3q95r)
+- [**FAQ**](https://www.yuque.com/eosphoros/dbgpt-docs/gomtc46qonmyt44l)
 
 ## 特性一览
 - **私域问答&数据处理&RAG**
@@ -111,48 +112,27 @@ DB-GPT是一个开源的数据库领域大模型框架。目的是构建大模�
 
 - **多模型支持与管理**
 
-  海量模型支持，包括开源、API代理等几十种大语言模型。如LLaMA/LLaMA2、Baichuan、ChatGLM、文心、通义、智谱等。
-  - 支持多种大语言模型, 当前已支持如下模型: 
-  - [Vicuna](https://huggingface.co/Tribbiani/vicuna-13b)
-  - [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)
-  - [LLama2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
-  - [baichuan2-13b](https://huggingface.co/baichuan-inc)
-  - [baichuan-7B](https://huggingface.co/baichuan-inc/baichuan-7B)
-  - [chatglm-6b](https://huggingface.co/THUDM/chatglm-6b)
-  - [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b)
+  海量模型支持，包括开源、API代理等几十种大语言模型。如LLaMA/LLaMA2、Baichuan、ChatGLM、文心、通义、智谱等。当前已支持如下模型: 
+
+  - 新增支持模型
+    - 🔥🔥🔥  [qwen-72b-chat](https://huggingface.co/Qwen/Qwen-72B-Chat)
+    - 🔥🔥🔥  [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat)
+  - [更多开源模型](https://www.yuque.com/eosphoros/dbgpt-docs/iqaaqwriwhp6zslc#qQktR)
 
   - 支持在线代理模型 
-    - [x] [ChatGPT](https://api.openai.com/)
-    - [x] [Tongyi](https://www.aliyun.com/product/dashscope)
-    - [x] [Wenxin](https://cloud.baidu.com/product/wenxinworkshop?track=dingbutonglan)
-    - [x] [ChatGLM](http://open.bigmodel.cn/)
+    - [x] [OpenAI·ChatGPT](https://api.openai.com/)
+    - [x] [阿里·通义](https://www.aliyun.com/product/dashscope)
+    - [x] [百度·文心](https://cloud.baidu.com/product/wenxinworkshop?track=dingbutonglan)
+    - [x] [智谱·ChatGLM](http://open.bigmodel.cn/)
+    - [x] [讯飞·星火](https://xinghuo.xfyun.cn/)
+    - [x] [Google·Bard](https://bard.google.com/)
 
 - **隐私安全**
 
   通过私有化大模型、代理脱敏等多种技术保障数据的隐私安全。
 
-- 支持数据源
+- [支持数据源](https://www.yuque.com/eosphoros/dbgpt-docs/rc4r27ybmdwg9472)
 
-| DataSource                                                                      | support     | Notes                                       |
-| ------------------------------------------------------------------------------  | ----------- | ------------------------------------------- |
-| [MySQL](https://www.mysql.com/)                                                 | Yes         |                                             |
-| [PostgresSQL](https://www.postgresql.org/)                                      | Yes         |                                             |
-| [Spark](https://github.com/apache/spark)                                        | Yes         |                                             |
-| [DuckDB](https://github.com/duckdb/duckdb)                                      | Yes         |                                             |
-| [Sqlite](https://github.com/sqlite/sqlite)                                      | Yes         |                                             |
-| [MSSQL](https://github.com/microsoft/mssql-jdbc)                                | Yes         |                                             |
-| [ClickHouse](https://github.com/ClickHouse/ClickHouse)                          | Yes         |                                             |
-| [Oracle](https://github.com/oracle)                                             | No          |           TODO                              |
-| [Redis](https://github.com/redis/redis)                                         | No          |           TODO                              |
-| [MongoDB](https://github.com/mongodb/mongo)                                     | No          |           TODO                              |
-| [HBase](https://github.com/apache/hbase)                                        | No          |           TODO                              |
-| [Doris](https://github.com/apache/doris)                                        | No          |           TODO                              |
-| [DB2](https://github.com/IBM/Db2)                                               | No          |           TODO                              |
-| [Couchbase](https://github.com/couchbase)                                       | No          |           TODO                              |
-| [Elasticsearch](https://github.com/elastic/elasticsearch)                       | No          |           TODO                              |
-| [OceanBase](https://github.com/OceanBase)                                       | No          |           TODO                              |
-| [TiDB](https://github.com/pingcap/tidb)                                         | No          |           TODO                              |
-| [StarRocks](https://github.com/StarRocks/starrocks)                             | No          |           TODO                              |
 
 ## 架构方案
 整个DB-GPT的架构，如下图所示
@@ -249,6 +229,7 @@ The MIT License (MIT)
   - [x] Sqlite
   - [x] MSSQL
   - [x] ClickHouse
+  - [x] StarRocks
   - [ ] Oracle
   - [ ] Redis
   - [ ] MongoDB
@@ -259,7 +240,7 @@ The MIT License (MIT)
   - [ ] Elasticsearch
   - [ ] OceanBase
   - [ ] TiDB
-  - [ ] StarRocks
+
 
 ### 多模型管理与推理优化
 - [x] [集群部署](https://db-gpt.readthedocs.io/en/latest/getting_started/install/cluster/vms/index.html)
@@ -274,7 +255,7 @@ The MIT License (MIT)
 ### Agents与插件市场
 - [x] 多Agents框架
 - [x] 自定义Agents
-- [ ] 插件市场
+- [x] 插件市场
 - [ ] CoT集成
 - [ ] 丰富插件样本库
 - [ ] 支持AutoGPT协议
@@ -316,6 +297,5 @@ The MIT License (MIT)
 <p align="center">
   <img src="./assets/wechat.jpg" width="300px" />
 </p>
-
 
 [![Star History Chart](https://api.star-history.com/svg?repos=csunny/DB-GPT&type=Date)](https://star-history.com/#csunny/DB-GPT)

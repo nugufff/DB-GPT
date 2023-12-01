@@ -4,7 +4,6 @@
   <img src="./assets/LOGO.png" width="100%" />
 </p>
 
-
 <div align="center">
   <p>
     <a href="https://github.com/eosphoros-ai/DB-GPT">
@@ -22,8 +21,8 @@
     <a href="https://github.com/eosphoros-ai/DB-GPT/issues">
       <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/eosphoros-ai/DB-GPT" />
     </a>
-    <a href="https://discord.gg/nASQyBjvY">
-      <img alt="Discord" src="https://dcbadge.vercel.app/api/server/nASQyBjvY?compact=true&style=flat" />
+    <a href="https://discord.gg/7uQnPuveTY">
+      <img alt="Discord" src="https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat" />
     </a>
     <a href="https://codespaces.new/eosphoros-ai/DB-GPT">
       <img alt="Open in GitHub Codespaces" src="https://github.com/codespaces/badge.svg" />
@@ -31,7 +30,7 @@
   </p>
 
 
-[**简体中文**](README.zh.md) | [**Discord**](https://discord.gg/nASQyBjvY) | [**Documents**](https://db-gpt.readthedocs.io/en/latest/) | [**Wechat**](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) | [**Community**](https://github.com/eosphoros-ai/community)
+[**简体中文**](README.zh.md) | [**Discord**](https://discord.gg/7uQnPuveTY) | [**Documents**](https://db-gpt.readthedocs.io/en/latest/) | [**Wechat**](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) | [**Community**](https://github.com/eosphoros-ai/community)
 </div>
 
 ## What is DB-GPT?
@@ -52,18 +51,20 @@ In the era of Data 3.0, enterprises and developers can take the ability to creat
 ## Contents
 - [Install](#install)
 - [Demo](#demo)
-- [introduction](#introduction)
-- [features](#features)
-- [contribution](#contribution)
-- [roadmap](#roadmap)
-- [contact](#contact-information)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Contribution](#contribution)
+- [Roadmap](#roadmap)
+- [Contact](#contact-information)
 
 [DB-GPT Youtube Video](https://www.youtube.com/watch?v=f5_g0OObZBQ)
 
 ## Demo
-Run on an RTX 4090 GPU.
+##### Chat Data
+![chatdata](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/1f77079e-d018-4eee-982b-9b6a66bf1063)
+
 ##### Chat Excel
-![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/0474d220-2a9f-449f-a940-92c8a25af390)
+![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/3044e83b-a71e-41fe-a1e2-98e479e0ab59)
 
 ## Install 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -71,24 +72,11 @@ Run on an RTX 4090 GPU.
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-[**Usage Tutorial**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/deploy/deploy.html)
-- [**Install**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/deploy.html)
-  - [**Install Step by Step**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/deploy.html)
-  - [**Docker Install**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/docker/docker.html)
-  - [**Docker Compose**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/docker_compose/docker_compose.html)
-- [**How to Use**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/chatdb/chatdb.html)
-  - [**ChatData**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/chatdb/chatdb.html)
-  - [**ChatKnowledge**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/kbqa/kbqa.html)
-  - [**ChatExcel**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/chatexcel/chatexcel.html)
-  - [**Dashboard**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/dashboard/dashboard.html)
-  - [**LLM Management**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/model/model.html)
-  - [**Chat Agent**](https://db-gpt.readthedocs.io/en/latest/getting_started/application/chatagent/chatagent.html)
-- [**How to Deploy LLM**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/cluster/cluster.html)
-  - [**Standalone**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/cluster/vms/standalone.html)
-  - [**Cluster**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/cluster/vms/index.html)
-  - [**vLLM**](https://db-gpt.readthedocs.io/en/latest/getting_started/install/llm/vllm/vllm.html)
-- [**How to Debug**](https://db-gpt.readthedocs.io/en/latest/getting_started/observability.html)
-- [**FAQ**](https://db-gpt.readthedocs.io/en/latest/getting_started/faq/deploy/deploy_faq.html)
+[**Usage Tutorial**](http://docs.dbgpt.site/docs/overview)
+- [**Install**](http://docs.dbgpt.site/docs/installation)
+- [**Quickstart**](http://docs.dbgpt.site/docs/quickstart)
+- [**Application**](http://docs.dbgpt.site/docs/operation_manual)
+- [**Debugging**](http://docs.dbgpt.site/docs/operation_manual/advanced_tutorial/debugging)
 
 
 ## Features
@@ -112,50 +100,19 @@ At present, we have introduced several key features to showcase our current capa
 
 - **SMMF(Service-oriented Multi-model Management Framework)**
 
-  We offer extensive model support, including dozens of large language models (LLMs) from both open-source and API agents, such as LLaMA/LLaMA2, Baichuan, ChatGLM, Wenxin, Tongyi, Zhipu, and many more.
-  - [Vicuna](https://huggingface.co/Tribbiani/vicuna-13b)
-  - [vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5)
-  - [LLama2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)
-  - [baichuan2-13b](https://huggingface.co/baichuan-inc)
-  - [baichuan-7B](https://huggingface.co/baichuan-inc/baichuan-7B)
-  - [chatglm-6b](https://huggingface.co/THUDM/chatglm-6b)
-  - [chatglm2-6b](https://huggingface.co/THUDM/chatglm2-6b)
-  - [falcon-40b](https://huggingface.co/tiiuae/falcon-40b)
-  - [internlm-chat-7b](https://huggingface.co/internlm/internlm-chat-7b)
-  - [Qwen-7B-Chat/Qwen-14B-Chat](https://huggingface.co/Qwen/)
+  We offer extensive model support, including dozens of large language models (LLMs) from both open-source and API agents, such as LLaMA/LLaMA2, Baichuan, ChatGLM, Wenxin, Tongyi, Zhipu, and many more. 
 
-  - Support API Proxy LLMs
-    - [x] [ChatGPT](https://api.openai.com/)
-    - [x] [Tongyi](https://www.aliyun.com/product/dashscope)
-    - [x] [Wenxin](https://cloud.baidu.com/product/wenxinworkshop?track=dingbutonglan)
-    - [x] [ChatGLM](http://open.bigmodel.cn/)
+  - News
+    - 🔥🔥🔥  [qwen-72b-chat](https://huggingface.co/Qwen/Qwen-72B-Chat)
+    - 🔥🔥🔥  [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat)
+  - [More Supported LLMs](http://docs.dbgpt.site/docs/modules/smmf)
 
 - **Privacy and Security**
   
   We ensure the privacy and security of data through the implementation of various technologies, including privatized large models and proxy desensitization.
 
 - Support Datasources
-
-| DataSource                                                                      | support     | Notes                                       |
-| ------------------------------------------------------------------------------  | ----------- | ------------------------------------------- |
-| [MySQL](https://www.mysql.com/)                                                 | Yes         |                                             |
-| [PostgreSQL](https://www.postgresql.org/)                                      | Yes         |                                             |
-| [Spark](https://github.com/apache/spark)                                        | Yes         |                                             |
-| [DuckDB](https://github.com/duckdb/duckdb)                                      | Yes         |                                             |
-| [Sqlite](https://github.com/sqlite/sqlite)                                      | Yes         |                                             |
-| [MSSQL](https://github.com/microsoft/mssql-jdbc)                                | Yes         |                                             |
-| [ClickHouse](https://github.com/ClickHouse/ClickHouse)                          | Yes         |                                             |
-| [Oracle](https://github.com/oracle)                                             | No          |           TODO                              |
-| [Redis](https://github.com/redis/redis)                                         | No          |           TODO                              |
-| [MongoDB](https://github.com/mongodb/mongo)                                     | No          |           TODO                              |
-| [HBase](https://github.com/apache/hbase)                                        | No          |           TODO                              |
-| [Doris](https://github.com/apache/doris)                                        | No          |           TODO                              |
-| [DB2](https://github.com/IBM/Db2)                                               | No          |           TODO                              |
-| [Couchbase](https://github.com/couchbase)                                       | No          |           TODO                              |
-| [Elasticsearch](https://github.com/elastic/elasticsearch)                       | No          |           TODO                              |
-| [OceanBase](https://github.com/OceanBase)                                       | No          |           TODO                              |
-| [TiDB](https://github.com/pingcap/tidb)                                         | No          |           TODO                              |
-| [StarRocks](https://github.com/StarRocks/starrocks)                             | No          |           TODO                              |
+  - [Datasources](http://docs.dbgpt.site/docs/modules/connections)
 
 ## Introduction 
 The architecture of DB-GPT is shown in the following figure:
@@ -259,7 +216,7 @@ The core capabilities primarily consist of the following components:
 ### Agents market and Plugins
 - [x] multi-agents framework
 - [x] custom plugin development 
-- [ ] plugin market
+- [x] plugin market
 - [ ] Integration with CoT
 - [ ] Enrich plugin sample library
 - [ ] Support for AutoGPT protocol
@@ -291,11 +248,10 @@ As of October 10, 2023, through the fine-tuning of an open-source model with 13 
 
 ## Licence
 
-The MIT License (MIT)
 
 ## Contact Information
 We are working on building a community, if you have any ideas for building the community, feel free to contact us.
-[![](https://dcbadge.vercel.app/api/server/nASQyBjvY?compact=true&style=flat)](https://discord.gg/nASQyBjvY)
+[![](https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat)](https://discord.gg/7uQnPuveTY)
 
 <p align="center">
   <img src="./assets/wechat.jpg" width="300px" />
